@@ -1,0 +1,7 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Excel\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Excel\bin\Debug\Excel.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Excel\bin\Debug\Excel.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Excel\bin\Debug\ICSharpCode.SharpZLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Excel\bin\Debug\ICSharpCode.SharpZLib.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Excel\obj\Debug\Excel.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Excel\obj\Debug\Excel.pdb

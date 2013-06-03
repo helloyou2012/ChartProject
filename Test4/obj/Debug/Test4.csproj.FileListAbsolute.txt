@@ -1,0 +1,14 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\bin\Debug\Test4.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\bin\Debug\Test4.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\obj\Debug\Test4.Form1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\obj\Debug\Test4.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\obj\Debug\Test4.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\obj\Debug\Test4.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\obj\Debug\Test4.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\bin\Debug\ICSharpCode.SharpZLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\bin\Debug\ICSharpCode.SharpZLib.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\bin\Debug\Excel.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\bin\Debug\Excel.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\bin\Debug\Chart.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Test4\bin\Debug\Chart.pdb

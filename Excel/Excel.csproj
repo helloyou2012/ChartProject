@@ -1,0 +1,140 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C715DBC4-1303-4B8D-9353-AA100F50C0ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Excel</RootNamespace>
+    <AssemblyName>Excel</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>Excel</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <NativePlatformName>Windows CE</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Binary12Format\Enums.cs" />
+    <Compile Include="Core\Binary12Format\XlsbDimension.cs" />
+    <Compile Include="Core\Binary12Format\XlsbNumFmt.cs" />
+    <Compile Include="Core\Binary12Format\XlsbRecord.cs" />
+    <Compile Include="Core\Binary12Format\XlsbSST.cs" />
+    <Compile Include="Core\Binary12Format\XlsbStyles.cs" />
+    <Compile Include="Core\Binary12Format\XlsbWorkbook.cs" />
+    <Compile Include="Core\Binary12Format\XlsbWorksheet.cs" />
+    <Compile Include="Core\Binary12Format\XlsbXf.cs" />
+    <Compile Include="Core\BinaryFormat\Enums.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffBlankCell.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffBOF.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffBoundSheet.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffContinue.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffDbCell.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffDimensions.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffEOF.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffFormulaCell.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffFormulaString.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffIndex.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffIntegerCell.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffInterfaceHdr.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffLabelCell.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffLabelSSTCell.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffMulBlankCell.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffMulRKCell.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffNumberCell.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffRecord.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffRKCell.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffRow.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffSimpleValueRecord.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffSST.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffStream.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffUncalced.cs" />
+    <Compile Include="Core\BinaryFormat\XlsBiffWindow1.cs" />
+    <Compile Include="Core\BinaryFormat\XlsDirectoryEntry.cs" />
+    <Compile Include="Core\BinaryFormat\XlsFat.cs" />
+    <Compile Include="Core\BinaryFormat\XlsFormattedUnicodeString.cs" />
+    <Compile Include="Core\BinaryFormat\XlsHeader.cs" />
+    <Compile Include="Core\BinaryFormat\XlsRootDirectory.cs" />
+    <Compile Include="Core\BinaryFormat\XlsStream.cs" />
+    <Compile Include="Core\BinaryFormat\XlsWorkbookGlobals.cs" />
+    <Compile Include="Core\BinaryFormat\XlsWorksheet.cs" />
+    <Compile Include="Core\Helpers.cs" />
+    <Compile Include="Core\OpenXmlFormat\XlsxDimension.cs" />
+    <Compile Include="Core\OpenXmlFormat\XlsxNumFmt.cs" />
+    <Compile Include="Core\OpenXmlFormat\XlsxSST.cs" />
+    <Compile Include="Core\OpenXmlFormat\XlsxStyles.cs" />
+    <Compile Include="Core\OpenXmlFormat\XlsxWorkbook.cs" />
+    <Compile Include="Core\OpenXmlFormat\XlsxWorksheet.cs" />
+    <Compile Include="Core\OpenXmlFormat\XlsxXf.cs" />
+    <Compile Include="Core\ZipWorker.cs" />
+    <Compile Include="Errors.cs" />
+    <Compile Include="ExcelBinary12Reader.cs" />
+    <Compile Include="ExcelBinaryReader.cs" />
+    <Compile Include="ExcelDataReader.cs" />
+    <Compile Include="ExcelFileType.cs" />
+    <Compile Include="ExcelOpenXmlReader.cs" />
+    <Compile Include="ExcelReaderFactory.cs" />
+    <Compile Include="Exceptions\BiffRecordException.cs" />
+    <Compile Include="Exceptions\HeaderException.cs" />
+    <Compile Include="Factory.cs" />
+    <Compile Include="IExcelDataReader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ICSharpCode.SharpZLib\ICSharpCode.SharpZLib.csproj">
+      <Project>{4751E0FA-0C8D-4979-8147-EA8EA884BCDD}</Project>
+      <Name>ICSharpCode.SharpZLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

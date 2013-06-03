@@ -1,0 +1,14 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\bin\Debug\Chart.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\bin\Debug\Chart.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\obj\Debug\Chart.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\obj\Debug\Chart.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\obj\Debug\Chart.ChartBase.TendencyChart.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\obj\Debug\Chart.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\obj\Debug\Chart.ChartBase.AnalysisChart.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\obj\Debug\Chart.ChartBase.FrequencyChart.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\bin\Debug\Excel.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\bin\Debug\ICSharpCode.SharpZLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\bin\Debug\ICSharpCode.SharpZLib.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\bin\Debug\Excel.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ChartProject1\Chart\obj\Debug\Chart.ChartBase.ChartDataView.resources

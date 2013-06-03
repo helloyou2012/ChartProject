@@ -1,0 +1,185 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{37B04D6B-AC31-47B5-8180-8049DEF2F517}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chart</RootNamespace>
+    <AssemblyName>Chart</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>Chart</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <NativePlatformName>Windows CE</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataGrid" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chart\AdapterUtils.cs" />
+    <Compile Include="ChartBase\AnalysisChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChartBase\AnalysisChart.Designer.cs">
+      <DependentUpon>AnalysisChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\ArrowItem.cs" />
+    <Compile Include="Chart\AxesConstraint.cs" />
+    <Compile Include="Chart\Axis.cs" />
+    <Compile Include="Chart\BarPlot.cs" />
+    <Compile Include="Chart\BasePlot.cs" />
+    <Compile Include="Chart\BaseSequencePlot.cs" />
+    <Compile Include="Chart\Bitmap.PlotSurface2D.cs" />
+    <Compile Include="Chart\CandlePlot.cs" />
+    <Compile Include="ChartBase\ChartDataView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChartBase\ChartDataView.Designer.cs">
+      <DependentUpon>ChartDataView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChartBase\ChartTableFactory.cs" />
+    <Compile Include="Chart\DateTimeAxis.cs" />
+    <Compile Include="ChartBase\EditDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChartBase\EditDataForm.Designer.cs">
+      <DependentUpon>EditDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\FilledRegion.cs" />
+    <Compile Include="Chart\FontScaler.cs" />
+    <Compile Include="ChartBase\FrequencyChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChartBase\FrequencyChart.Designer.cs">
+      <DependentUpon>FrequencyChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\Grid.cs" />
+    <Compile Include="Chart\HistogramPlot.cs" />
+    <Compile Include="Chart\HorizontalLine.cs" />
+    <Compile Include="Chart\IDrawable.cs" />
+    <Compile Include="Chart\IGradient.cs" />
+    <Compile Include="Chart\ImagePlot.cs" />
+    <Compile Include="Chart\IPlot.cs" />
+    <Compile Include="Chart\IPlotSurface2D.cs" />
+    <Compile Include="Chart\ISequencePlot.cs" />
+    <Compile Include="Chart\ISurface.cs" />
+    <Compile Include="Chart\ITransform2D.cs" />
+    <Compile Include="Chart\LabelAxis.cs" />
+    <Compile Include="Chart\LabelPointPlot.cs" />
+    <Compile Include="Chart\Legend.cs" />
+    <Compile Include="Chart\LegendBase.cs" />
+    <Compile Include="Chart\LinearAxis.cs" />
+    <Compile Include="Chart\LinearGradient.cs" />
+    <Compile Include="Chart\LinePlot.cs" />
+    <Compile Include="Chart\LogAxis.cs" />
+    <Compile Include="Chart\Marker.cs" />
+    <Compile Include="Chart\MarkerItem.cs" />
+    <Compile Include="Chart\NPlotException.cs" />
+    <Compile Include="Chart\PageAlignedPhysicalAxis.cs" />
+    <Compile Include="Chart\PhysicalAxis.cs" />
+    <Compile Include="Chart\PiAxis.cs" />
+    <Compile Include="Chart\PiePlot.cs" />
+    <Compile Include="Chart\PlotSurface2D.cs">
+    </Compile>
+    <Compile Include="Chart\PointD.cs" />
+    <Compile Include="Chart\PointF.cs" />
+    <Compile Include="Chart\PointPlot.cs" />
+    <Compile Include="Chart\RectangleBrushes.cs" />
+    <Compile Include="Chart\RectangleD.cs" />
+    <Compile Include="Chart\SequenceAdapter.cs" />
+    <Compile Include="Chart\StartStep.cs" />
+    <Compile Include="Chart\Statistics.cs" />
+    <Compile Include="Chart\StepGradient.cs" />
+    <Compile Include="Chart\StepPlot.cs" />
+    <Compile Include="ChartBase\TendencyChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChartBase\TendencyChart.Designer.cs">
+      <DependentUpon>TendencyChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\TextItem.cs" />
+    <Compile Include="Chart\TradingDateTimeAxis.cs" />
+    <Compile Include="Chart\Transform2D.cs" />
+    <Compile Include="Chart\Utils.cs" />
+    <Compile Include="Chart\VerticalLine.cs" />
+    <Compile Include="Chart\Windows.PlotSurface2D.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ChartBase\AnalysisChart.resx">
+      <DependentUpon>AnalysisChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartBase\ChartDataView.resx">
+      <DependentUpon>ChartDataView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartBase\FrequencyChart.resx">
+      <DependentUpon>FrequencyChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartBase\TendencyChart.resx">
+      <DependentUpon>TendencyChart.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Excel\Excel.csproj">
+      <Project>{C715DBC4-1303-4B8D-9353-AA100F50C0ED}</Project>
+      <Name>Excel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
